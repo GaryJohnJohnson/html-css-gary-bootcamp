@@ -1,0 +1,8 @@
+
+/*adds a border to all images*/
+img{
+    border: 10px groove orange;
+}
+
+/*Adding a comment is done with the same keys strokes as in html(ctrl/) ,after typing what you want, but appears different*/
+/*you can even pull the end down or up(*!)adding more code to the comment*/

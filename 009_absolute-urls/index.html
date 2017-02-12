@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--relative-->
+<img src="puppy.jpg">
+
+<!--relative-->
+<img src= "img/dog.jpg">
+
+<!--relative on this one we are going up a level in the directory and then down into again-->
+<img src=" ../000_img/puppy.jpg">
+
+<!--absolute urls-->
+<!--in absolute urls no matter where you place it will find the image-->
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Terrier_mixed-breed_dog.jpg/220px-Terrier_mixed-breed_dog.jpg">
+
+<!--absolute urls-->
+<!--in this absolut url the first forward slash is relative to the root of your website which makes it absolute-->
+<img src="/009_absolute-urls/puppy.jpg">
+<!--the above would be the way for production due to the webstorm server works, it will show and error in webstorm but not in production-->
+<!--the below makes it work in webstorm-->
+<img src="/html-css-gary-bootcamp/009_absolute-urls/puppy.jpg">
+
+<!--you add /html-css-gary-bootcamp-->
+<!--and webstorm will say it will not work(see the brown) but it does-->
+
+another absolute url
+
+<img src="/000_img/puppy.jpg" alt="">
+</body>
+</html>
